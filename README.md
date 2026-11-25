@@ -12,7 +12,7 @@ Live qualification passed against the official Goose v1.60.2 Linux ARM64 CLI: OA
 
 ## Install and connect
 
-The npm package is `@cenmax/goose-oauth`. Once version 0.1.1 is available on npm:
+Install the published [`@cenmax/goose-oauth@0.1.1`](https://www.npmjs.com/package/@cenmax/goose-oauth/v/0.1.1) package:
 
 ```sh
 npm install --global @cenmax/goose-oauth@0.1.1
@@ -97,6 +97,6 @@ Tests use synthetic Cenmax AI identities and mocked network calls. They cover de
 
 ## Discovery and sharing
 
-Share this helper package together with its generated, token-free provider configuration instructions. The configuration contains installation-specific absolute command paths, so users must generate their own copy after signing in. It is a model provider, not an MCP tool extension; listing it in an MCP extension catalogue would not install Cenmax AI authentication. The included recipe can be shared separately, but it requires the provider to be configured first and does not sign users in. Public recipe-gallery inclusion and native provider documentation require separate upstream submissions; no listing or npm publication is implied by this package.
+Share this helper package together with its generated, token-free provider configuration instructions. The configuration contains installation-specific absolute command paths, so users must generate their own copy after signing in. It is a model provider, not an MCP tool extension; listing it in an MCP extension catalogue would not install Cenmax AI authentication. The included recipe can be shared separately, but it requires the provider to be configured first and does not sign users in. The helper is published on npm as `@cenmax/goose-oauth`. Public recipe-gallery inclusion and native provider documentation require separate upstream submissions; no upstream listing is claimed.
 
 References: [Goose command-based authentication](https://goose-docs.ai/docs/getting-started/providers/#command-based-authentication), [Goose v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2), [released recipe examples](https://github.com/aaif-goose/goose/tree/v1.60.2/documentation/src/pages/recipes/data/recipes).
