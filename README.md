@@ -12,12 +12,21 @@ Live qualification passed against the official Goose v1.60.2 Linux ARM64 CLI: OA
 
 ## Install and connect
 
-Download the [reviewed release package](https://github.com/cloudcenmax/cenmax-ai-goose/releases/tag/v0.1.0) into a permanent directory. It contains the integration, not the host harness:
+The npm package is `@cenmax/goose-oauth`. Once version 0.1.1 is available on npm:
+
+```sh
+npm install --global @cenmax/goose-oauth@0.1.1
+cenmax-goose login
+```
+
+The GitHub release package is an alternative to npm.
+
+Download the [reviewed release package](https://github.com/cloudcenmax/cenmax-ai-goose/releases/tag/v0.1.1) into a permanent directory. It contains the integration, not the host harness:
 
 ```sh
 mkdir cenmax-ai-goose
-curl --fail --location --output cenmax-ai-goose-oauth-0.1.0.tgz https://github.com/cloudcenmax/cenmax-ai-goose/releases/download/v0.1.0/cenmax-ai-goose-oauth-0.1.0.tgz
-tar -xzf cenmax-ai-goose-oauth-0.1.0.tgz --strip-components=1 -C cenmax-ai-goose
+curl --fail --location --output cenmax-goose-oauth-0.1.1.tgz https://github.com/cloudcenmax/cenmax-ai-goose/releases/download/v0.1.1/cenmax-goose-oauth-0.1.1.tgz
+tar -xzf cenmax-goose-oauth-0.1.1.tgz --strip-components=1 -C cenmax-ai-goose
 ```
 
 Run the helper without a global installation:

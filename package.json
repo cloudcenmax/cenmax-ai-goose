@@ -1,6 +1,6 @@
 {
-  "name": "@cenmax-ai/goose-oauth",
-  "version": "0.1.0",
+  "name": "@cenmax/goose-oauth",
+  "version": "0.1.1",
   "description": "Cenmax AI subscription OAuth credential helper for Goose",
   "keywords": [
     "cenmax-ai",
